@@ -1,0 +1,50 @@
+{
+  "name": "analizyum.webui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "axios": "^0.26.1",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "core-js": "^3.8.3",
+    "fs": "^0.0.1-security",
+    "monaco-editor-webpack-plugin": "^7.0.1",
+    "splitpanes": "^2.4.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1",
+    "vue-tabs-chrome": "^0.10.0",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-e2e-cypress": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/test-utils": "^1.1.3",
+    "@vue/vue2-jest": "^27.0.0-alpha.2",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^27.0.6",
+    "cypress": "^8.3.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "jest": "^27.0.5",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}

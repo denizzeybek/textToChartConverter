@@ -1,0 +1,123 @@
+@import url("../../colors/colors.css");
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header-div {
+  background-color: var(--header-top-color);
+  padding: 0;
+  margin: 0;
+  height: 4vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+}
+
+.logo-div {
+  width: 317px;
+  height: 6vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-left: 34px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+}
+
+.logo-div .logo-ecl {
+  color: white;
+  margin-left: 4px;
+}
+
+.logo-div h1 {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+.debug-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+}
+
+.debug-div a {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4vh;
+}
+
+.debug-div a:hover {
+  background-color: #33373b;
+  border: 0px solid transparent;
+  border-radius: 6px;
+}
+
+.debug-div i {
+  font-size: 20px;
+  color: black;
+}
+
+.debug-icon {
+  color: white;
+}
+
+.play-icon {
+  color: #75beff;
+}
+
+.step-over-icon {
+  background-image: url("@/assets/images/debug-step-over.png");
+  width: 18px;
+  height: 18px;
+  background-size: cover;
+}
+
+.step-into-icon {
+  background-image: url("@/assets/images/step-into-icon.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.step-out-icon {
+  background-image: url("@/assets/images/step-out-icon.png");
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.pause-icon {
+  color: #ff7865;
+}
+/*# sourceMappingURL=homeHeader.css.map */

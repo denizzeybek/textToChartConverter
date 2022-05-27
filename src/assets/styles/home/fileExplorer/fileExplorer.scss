@@ -1,0 +1,235 @@
+// .vtl-tree-margin {
+//     margin-left: 1.2em !important;
+// }
+.icon:hover {
+    cursor: pointer;
+}
+
+.muted {
+    color: gray;
+    font-size: 40%;
+    // display: none;
+}
+
+.archive-btn-top {
+    font-size: 22px;
+    margin-right: 2px;
+    text-decoration: none !important; 
+    color:#a6adba ;
+    position:absolute;
+}
+.archive-count{
+    color:#3470df ;
+    font-size:11px;
+    position:relative;
+    top:-5px;
+    right:-13px;
+    border:1px solid #3470df;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    padding:0;
+    width:16px;
+    text-decoration: none !important; 
+    height:16px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 50%;
+}
+.archive-number{
+    text-decoration:none !important;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+.add-folder-top{
+    font-size: 22px;
+    color:#a6adba ;
+    margin-left:10px;
+    margin-top:2px;
+}
+.archive-general-div{
+    margin-bottom:5px; 
+    margin-left:5px;
+    margin-right:12px;
+}
+.toggle-archive-btn{
+    color:#75beff !important;
+    text-decoration: none;
+
+}
+.toggle-archive-btn i{
+    color:#75beff !important;
+    text-decoration: none;
+}
+.add-folder-btn i {
+    font-size: 14px;
+    margin-left: 2px;
+}
+
+.add-folder-btn:hover i {
+    color: white;
+}
+
+.add-folder-btn {
+    cursor: pointer;
+}
+
+.search-input {
+    height: 20px;
+    width: 120px;
+    border: 1px solid rgb(48, 52, 55); 
+    margin-right:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px; 
+} 
+.search-input:focus-visible{
+    outline: none !important;
+}
+.search-cross-divider{
+    height: 20px;
+    width:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-left:-2px;
+    background-color:white;
+    border:1px solid white; 
+    cursor:pointer; 
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-right:30px;
+}
+.search-cross{ 
+    font-size:16px;
+    color:#a6adba;
+}
+.search-cross:hover{ 
+    color:#323842;
+}
+.vtl-node-content span {
+    color: rgb(166, 173, 186) !important;
+    font-size: 14px;
+}
+
+i,
+a {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-icon {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-caret {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-icon-caret-right {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-icon-caret-down {
+    color: rgb(166, 173, 186) !important;
+}
+
+/* .icon{
+    color:rgb(166, 173, 186) !important;
+} */
+.vtl-icon,
+.icon {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-icon-file {
+    color: rgb(166, 173, 186) !important;
+}
+
+.vtl-node-main:hover .vtl-node-content span {
+    color: rgb(50, 56, 66) !important;
+}
+
+.vtl-node-main:hover i,
+a {
+    color: rgb(50, 56, 66) !important;
+}
+
+.vtl-node-main:hover .vtl-icon {
+    color: rgb(50, 56, 66) !important;
+}
+
+.vtl-icon:hover {
+    color: rgb(50, 56, 66) !important;
+}
+
+.vtl-icon.vtl-menu-icon {
+    color: #a6adba !important;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980b9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+.vtl-input{
+    width:100px !important;
+}
+.vtl-operation{
+    margin-left:0px !important;
+}
+
+
+.add-to-archive-hover{
+    display:none;
+}
+.icon-archive-project{
+    color:#a6adba !important;
+}
+.vtl-node-main:hover .add-to-archive-hover{
+    display:flex;
+    margin-left:20px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.archive-btn-a{
+    margin-right:7px;
+}

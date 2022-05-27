@@ -1,0 +1,91 @@
+@import "@/assets/styles/colors/colors.css";
+body{
+    padding: 0;
+    margin: 0;
+}
+.header-div{
+    background-color: var(--header-top-color);
+    padding: 0;
+    margin: 0;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height:4vh;
+}
+.logo-div{
+    width:317px; 
+    height: 6vh;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 34px;
+    align-items: center;
+    height:4vh;
+
+    .logo-ecl{
+        color:white;
+        margin-left:4px;
+    }
+    h1{
+        padding: 0;
+        margin:0;
+        color:white;
+    }
+}
+
+.debug-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    height:4vh;
+    
+    a{
+        padding-left:15px;
+        padding-right:15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:4vh;
+    }
+    a:hover{
+        // background-color: rgb(241,243,244);
+        background-color: rgb(51,55,59);
+        border:0px solid transparent;
+        border-radius:6px;
+
+    }
+
+    i{
+        font-size:20px;
+        color:black;
+
+    }
+}  
+.debug-icon{
+    color:white ;
+}
+.play-icon{
+    color:rgb(117, 190, 255)
+}
+.step-over-icon{
+    background-image: url("@/assets/images/debug-step-over.png");
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+}
+.step-into-icon{
+    background-image: url("@/assets/images/step-into-icon.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.step-out-icon{
+    background-image: url("@/assets/images/step-out-icon.png");
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+}
+.pause-icon{
+    color:rgb(255, 120, 101)
+}
