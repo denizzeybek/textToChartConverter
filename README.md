@@ -1,10 +1,10 @@
-# TextToChartConverter
+
 <h1 align="center">TextToChartConverter</h1>
 
 ## Introduction
-```
+<p>
 TextToChartConverter is a web application dashboard that converts your custom language to flow charts. When you type your custom code, it makes the relevant drawings according to the defined keywords.
-```
+</p>
 
 ### Point of View
 ```
