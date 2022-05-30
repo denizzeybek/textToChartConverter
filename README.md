@@ -26,9 +26,9 @@ To run application in production mode -> npm run build</br>
 
 ### Defined Keywords
 <p>
-Mailleri indir
-Web adresine git
-Sekmeyi tabloya yükle
-Web nesnesine tıkla
-Varsa
+Mailleri indir</br>
+Web adresine git</br>
+Sekmeyi tabloya yükle</br>
+Web nesnesine tıkla</br>
+Varsa</br>
 </p>
