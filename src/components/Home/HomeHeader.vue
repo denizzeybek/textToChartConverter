@@ -6,33 +6,33 @@
         </div> -->
         <div class="logo-div">
             <!-- <img :src="require(`@/assets/images/ecl-lg.png`)" width="90" :alt="sidebarOpen"> -->
-            <img :src="require(`@/assets/images/ecl-sm2.png`)" width="25" :alt="sidebarOpen">
-            <span class="logo-ecl">Eclone</span>
+            <!-- <img :src="require(`@/assets/images/ecl-sm2.png`)" width="25" :alt="sidebarOpen"> -->
+            <span class="logo-ecl" style="padding-top:8px;padding-bottom:8px;">TextToChartConverter</span>
         </div>
         <div class="debug-div">
             <a class="" href="#">
                 <!-- <font-awesome-icon :icon="['fa', 'play']" /> -->
-                <i class="fa-solid fa-play play-icon"></i>
+                <!-- <i class="fa-solid fa-play play-icon"></i> -->
             </a>
 
             <a class="" href="#">
-                <span class="step-over-icon"></span>
+                <!-- <span class="step-over-icon"></span> -->
                 <!-- <img class="debug-icon" :src="require(`@/assets/images/debug-step-over.png`)" width="18" :alt="sidebarOpen"> -->
                 <!-- <font-awesome-icon :icon="['fa', 'floppy-disk']" /> -->
             </a>
 
             <a class="" href="#">
-                <span class="step-into-icon"></span>
+                <!-- <span class="step-into-icon"></span> -->
                 <!-- <font-awesome-icon :icon="['fa', 'circle-stop']" /> -->
             </a>
 
             <a class="" href="#">
-                <span class="step-out-icon"></span>
+                <!-- <span class="step-out-icon"></span> -->
                 <!-- <font-awesome-icon :icon="['fa', 'circle-arrow-left']" /> -->
             </a>
 
             <a class="" href="#">
-                <i class="fa-regular fa-square pause-icon"></i>
+                <!-- <i class="fa-regular fa-square pause-icon"></i> -->
                 <!-- <font-awesome-icon :icon="['fa', 'circle-arrow-up']" /> -->
             </a>
         </div>

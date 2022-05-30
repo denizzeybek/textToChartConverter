@@ -204,13 +204,14 @@ export class CodeTree {
         if(line.includes("Varsa"))
             shapeType='condition';
         return shapeType;
-
-    }
+    } 
     getIconType(line){
         var iconType='comment';
         if(line.includes("tikla"))
             iconType='cursor';
         else if(line.includes("git"))
+            iconType='web';
+        else if(line.includes("indir"))
             iconType='web';
         return iconType;
     }

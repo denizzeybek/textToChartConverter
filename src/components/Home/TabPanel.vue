@@ -23,16 +23,16 @@ export default {
                     key: 'facebook',
                     favicon: require('@/assets/images/gear.jpg')
                 },
-                {
-                    label: 'New Tab',
-                    key: 'any-string-key',
-                    favicon: (h, {
-                        tab,
-                        index
-                    }) => {
-                        return h('span', "N")
-                    }
-                }
+                // {
+                //     label: 'New Tab',
+                //     key: 'any-string-key',
+                //     favicon: (h, {
+                //         tab,
+                //         index
+                //     }) => {
+                //         return h('span', "N")
+                //     }
+                // }
             ]
         }
     }
