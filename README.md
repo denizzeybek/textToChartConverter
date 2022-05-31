@@ -18,7 +18,7 @@ In my modeling solution, the drawing will be done in the vertical plane, unlike 
 
 
 ### Getting Started
-<p>Project Setup</p>
+#### Project Setup
 ```
 npm install
 ```
