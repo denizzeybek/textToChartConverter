@@ -18,14 +18,21 @@ In my modeling solution, the drawing will be done in the vertical plane, unlike 
 
 
 ### Getting Started
-<p>
-Project Setup
+<p>Project Setup</p>
 ```
 npm install
 ```
-To run application in development mode  -> npm run serve</br>
-To run application in production mode -> npm run build</br>
-</p>
+
+<p>To run application in development mode</p> 
+```
+npm run serve
+```
+
+<p>To run application in production mode</p> 
+```
+npm  run build
+``` 
+
 
 ### Defined Keywords
 <p>
