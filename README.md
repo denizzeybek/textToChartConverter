@@ -22,13 +22,11 @@ In my modeling solution, the drawing will be done in the vertical plane, unlike 
 ```
 npm install
 ```
-
-<p>To run application in development mode</p> 
+#### To run application in development mode 
 ```
 npm run serve
 ```
-
-<p>To run application in production mode</p> 
+#### To run application in production mode
 ```
 npm  run build
 ``` 
